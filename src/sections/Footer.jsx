@@ -267,8 +267,9 @@ export default function Footer() {
           <p className="text-white/30 text-xs sm:text-sm tracking-wider">
             © 2026 Solaris IQ. All rights reserved.
           </p>
-          
-          <div className="flex gap-3">
+          // Updated footer
+
+             <div className="flex gap-3">
             {socialLinks.map((social) => (
               <motion.a
                 key={social.label}
